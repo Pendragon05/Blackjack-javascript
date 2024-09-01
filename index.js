@@ -10,6 +10,10 @@ let sumEl = document.getElementById("sum-el");
 let cardsEl = document.getElementById("cards-el");
 
 function startGame() {
+    renderGame()
+}
+
+function renderGame() {
   sumEl.textContent = "Sum: " + sum;
   cardsEl.textContent = "Cards: " + firstCard + secondCard;
   if (sum <= 20) {
@@ -28,5 +32,5 @@ function newCard() {
   console.log("Drawing a new card from the deck!);
   let card = 7;
   sum += card
-  startGame()
+  renderGame()
 }
