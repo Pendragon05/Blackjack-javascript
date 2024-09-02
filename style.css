@@ -3,6 +3,7 @@ body {
     "Lucida Sans", Arial, sans-serif;
   background-image: url("images/table.png");
   background-size: cover;
+  font-weight: bold;
   text-align: center;
   color: white;
 }
@@ -24,4 +25,6 @@ button {
   font-weight: bold;
   border: none;
   border-radius: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
