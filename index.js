@@ -1,4 +1,4 @@
-let firstCard = 10;
+let firstCard = getRandomCard;
 let secondCard = 4;
 let cards = [firstCard, secondCard];
 let sum = firstCard + secondCard;
@@ -33,7 +33,7 @@ function renderGame() {
 }
 
 function newCard() {
-  let card = 7;
+  let card = getRandomCard;
   sum += card;
   cards.push(card);
   console.log(cards);
